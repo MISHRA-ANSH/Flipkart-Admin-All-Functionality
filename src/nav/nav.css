@@ -1,0 +1,12 @@
+.navbar {
+    text-align: left;
+    min-height: 2.5rem;
+    background: #2874f0;
+    padding: 0.5rem;
+  }
+  
+  .navbar > h3 {
+    margin: 0;
+    color: white;
+  }
+  

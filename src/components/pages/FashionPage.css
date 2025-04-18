@@ -1,0 +1,75 @@
+.fashion-page {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 300px;
+  }
+  
+  .filters {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 22px;
+  }
+  
+  .filters h3 {
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .filters h4{
+    font-size: 20px;
+    margin-top:25px ;
+  }
+  .filters select, .filters input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .product-section {
+    flex-grow: 1;
+    padding-top: 0.1px;
+  }
+  .product-section h2{
+    text-align: left;
+  }
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 19px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .wishlist-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .wishlist-btn.active {
+    color: red;
+  }
+  
+  .rating {
+    color: #ffa41c;
+  }
+  

@@ -1,0 +1,119 @@
+/* Center the Signup Container */
+.signup-container {
+    display: flex;
+    width: 900px;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+  
+  /* Left Blue Section */
+  .signup-left {
+    width: 40%;
+    background: #2874f0;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .signup-left h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-left p {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  
+  .auth-image {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  /* Right White Section */
+  .signup-right {
+    width: 60%;
+    padding: 40px 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background: #fb641b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background: #e05a17;
+  }
+  
+  .or {
+    text-align: center;
+    margin: 15px 0;
+    color: #777;
+  }
+  
+  .otp-button {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .otp-button:hover {
+    background: #f0f0f0;
+  }
+  
+  .login-prompt {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-prompt a {
+    color: #2874f0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

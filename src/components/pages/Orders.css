@@ -1,0 +1,96 @@
+.orders-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.order-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-items {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* Order Status Styles */
+.order-status {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.order-status.processing {
+  background-color: #f7d708;
+  color: black;
+}
+
+.order-status.shipped {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.order-status.delivered {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Remove Order Button */
+.remove-order-btn {
+  background: #ff4d4d;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.remove-order-btn:hover {
+  background: #cc0000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .orders-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+/* Order Status Dropdown */
+.order-card select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Different Colors for Status */
+.order-card .status-processing {
+  color: orange;
+  font-weight: bold;
+}
+
+.order-card .status-shipped {
+  color: blue;
+  font-weight: bold;
+}
+
+.order-card .status-delivered {
+  color: green;
+  font-weight: bold;
+}

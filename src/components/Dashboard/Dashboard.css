@@ -1,0 +1,99 @@
+.dashboard-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .dashboard-tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dashboard-tabs button {
+    padding: 10px;
+    border: none;
+    background: lightgray;
+    cursor: pointer;
+  }
+  
+  .dashboard-tabs .active {
+    background: orange;
+    color: white;
+  }
+  
+  .profile-section, .order-history-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .profile-section form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+  }
+  
+  .profile-section form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    margin-top: 15px;
+    padding: 10px;
+    width: 10%;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    
+  }
+  
+  .logout-btn:hover {
+    background: darkred;
+
+  }
+  
+  .order-card {
+    padding: 15px;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reorder-btn {
+    background: blue;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .profile-section form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .profile-section form button:hover {
+    background: darkorange;
+  }
+  
